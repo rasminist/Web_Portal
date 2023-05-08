@@ -1,0 +1,47 @@
+.container{
+   
+    height: 400px;
+    background-color: rgb(17, 114, 212);
+    /* color: white; */
+    text-align: center;
+    font-size: large;
+    margin: 0;
+    width: 100%;
+       
+}
+.text{
+     margin: 10px;
+}
+.image{
+     margin: auto;
+}
+
+.button{
+    background-color: #ea7908; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+    
+    
+}
+.button1 {
+   background-color: #ea7908; 
+    color: black; 
+    border: 2px solid yellow;
+    margin: 5px;
+    border-radius: 20px;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
