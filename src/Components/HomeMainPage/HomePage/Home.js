@@ -8,6 +8,7 @@ function Home() {
   function eventClick() {
     var data = localStorage.getItem('userAccessToken');
     if(data){
+      console.log(data);
        navigate("/loanEmiCalculator");
        
       }else{
