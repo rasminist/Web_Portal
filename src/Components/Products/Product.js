@@ -27,7 +27,7 @@ function Product(props) {
 
             <div className="row">
               <h2
-                style={{ border: "2px solid orange", backgroundColor: "aqua" }}
+                style={{ border: "2px solid orange", backgroundColor: "aqua",marginLeft:"70px" ,width:"80%"}}
               >
                 Identity Documents
               </h2>
@@ -46,7 +46,7 @@ function Product(props) {
               </li>
               {/* <li><button className="button button1">Gst registration details</button></li> */}
 
-              <button className="buttonNextDesign">Next</button>
+              <button className="buttonNextDesign" style={{width:"50%",marginLeft:"160px"}}>Next</button>
             </div>
           </div>
         </div>

@@ -2,21 +2,43 @@ import React from "react";
 import { useState } from "react";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+// import Home_logo from "../Images/logo/Home_logo.jpg"
+
+import Home_logo from "../../Images/logo/Home_logo.jpg"
 
 
-function Navbar() {
+function Navbar(props) {
+  let navigate = useNavigate();
   const [showMediaIcons, setShowMediaIcons] = useState(false);
+  console.log("hello world..");
+  console.log(localStorage.getItem("userAccessToken"));
+  const isUserLoggedIn = localStorage.getItem("userAccessToken") ? true : false;
+  console.log(isUserLoggedIn);
+
+  function handleLogoutClick(){
+    localStorage.removeItem("userAccessToken");
+    navigate("/intialHomePage");
+  }
+
+  function navBarHandleClick(e){
+    navigate(`/${e.target.name}`);
+  }
+  function homePageClick(e){
+    navigate("/");
+  }
   return (
     <div>
       <nav className="main-nav">
         {/* first logo part */}
         <div className="logo">
           <img
-            src="https://dcassetcdn.com/design_img/3197617/672063/672063_17876201_3197617_909f3826_image.jpg"
+           src={Home_logo}
             class="img"
-            width="250px"
-            height="100px"
+            width="260px"
+            height="75px"
+            onClick={homePageClick}
           />
         </div>
         {/* Second menu part */}
@@ -25,24 +47,28 @@ function Navbar() {
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
           }
         >
-          <ul className="headerNavBar">
+          <ul className="headerNavBar" onClick={navBarHandleClick}>
             <li>
-              <NavLink to="/product">Products</NavLink>
+              <NavLink name="product">Products</NavLink>
             </li>
             <li>
-              <NavLink to="services">Services</NavLink>
+              <NavLink name="services">Services</NavLink>
             </li>
             <li>
-              <NavLink to="calculator">Calculator</NavLink>
+              <NavLink name="calculator">Calculator</NavLink>
             </li>
             <li>
-              <NavLink to="blog">Blog</NavLink>
+              <NavLink name="blog">Blog</NavLink>
             </li>
             <li>
-              <NavLink to="ContactUs">Contact</NavLink>
+              <NavLink name="ContactUs">Contact</NavLink>
             </li>
             <li>
-              <NavLink to="login">Login</NavLink>
+              {isUserLoggedIn ? (
+                <NavLink onClick={handleLogoutClick}>LogOut</NavLink>
+              ) : (
+                <NavLink name="login">Login</NavLink>
+              )}
             </li>
           </ul>
         </div>
@@ -50,19 +76,19 @@ function Navbar() {
         <div className="social-media">
           <ul className="social-media-desktop">
             <li>
-              <a href="https://annapurnafinance.in/" target="_blank">
+              <a href="https://www.facebook.com/ampl.net.in/" target="_blank">
                 {" "}
                 <FaFacebook className="facebook" />
               </a>
             </li>
             <li>
-              <a href="https://annapurnafinance.in/" target="_blank">
+              <a href="https://www.instagram.com/afpl.in/?hl=en" target="_blank">
                 {" "}
                 <FaInstagram className="instagram" />
               </a>
             </li>
             <li>
-              <a href="https://annapurnafinance.in/" target="_blank">
+              <a href="https://www.youtube.com/@annapurnafinance863" target="_blank">
                 <FaYoutube className="youtube" />
               </a>
             </li>
@@ -82,5 +108,4 @@ function Navbar() {
     </div>
   );
 }
-
 export default Navbar;

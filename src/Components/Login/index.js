@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../Navbar';
-import LoginPage from './Verification/LoginPage';
+import Navbar from '../ShareComponent/Navbar';
+import LoginPage from './OTPGenerate';
 function Login() {
   return (
     <div>

@@ -18,7 +18,7 @@ function OurSevices() {
         <div class="card">
           <div class="icon-wrapper">
             <i class="fas fa-hammer"></i>
-            <img src="https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png" alt="image-1" width="90" height="90" border-radius= "50%"/>
+            <img  className="image_placement" src="https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png" alt="image-1" width="90" height="90" border-radius= "50%"/>
           </div>
           <h3>Client-1</h3>
           <p>
@@ -31,7 +31,7 @@ function OurSevices() {
         <div class="card">
           <div class="icon-wrapper">
             <i class="fas fa-brush"></i>
-            <img src="https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png" alt="image-1" width="90" height="90" border-radius= "50%"/>
+            <img  className="image_placement" src="https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png" alt="image-1" width="90" height="90" border-radius= "50%"/>
           </div>
           <h3>Client-2</h3>
           <p>
@@ -44,7 +44,7 @@ function OurSevices() {
         <div class="card">
           <div class="icon-wrapper">
             <i class="fas fa-wrench"></i>
-            <img src="https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png" alt="image-1" width="90" height="90" border-radius= "50%"/>
+            <img className="image_placement" src="https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png" alt="image-1" width="90" height="90" border-radius= "50%"/>
           </div>
           <h3>Client-3</h3>
           <p>
@@ -57,7 +57,7 @@ function OurSevices() {
         <div class="card">
           <div class="icon-wrapper">
             <i class="fas fa-truck-pickup"></i>
-            <img src="https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png" alt="image-1" width="90" height="90" border-radius= "50%"/>
+            <img className="image_placement" src="https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png" alt="image-1" width="90" height="90" border-radius= "50%"/>
           </div>
           <h3>Client-4</h3>
           <p>
@@ -70,7 +70,7 @@ function OurSevices() {
         <div class="card">
           <div class="icon-wrapper">
             <i class="fas fa-broom"></i>
-            <img src="https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png" alt="image-1" width="90" height="90" border-radius= "50%"/>
+            <img  className="image_placement" src="https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png" alt="image-1" width="90" height="90" border-radius= "50%"/>
           </div>
           <h3>Client-5</h3>
           <p>
@@ -83,7 +83,7 @@ function OurSevices() {
         <div class="card">
           <div class="icon-wrapper">
             <i class="fas fa-plug"></i>
-            <img src="https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png" alt="image-1" width="90" height="90" border-radius= "50%"/>
+            <img className="image_placement" src="https://www.vhv.rs/dpng/d/551-5511364_circle-profile-man-hd-png-download.png" alt="image-1" width="90" height="91" border-radius= "50%"/>
           </div>
           <h3>Client-6</h3>
           <p>

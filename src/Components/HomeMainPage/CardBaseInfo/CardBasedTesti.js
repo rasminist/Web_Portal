@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./CardBasedTesti.css";
 function CardBasedTesti() {
+  console.log(useState);
   return (
-    <div>
-      <main className="main ">
+    <div card_Base_Container>
+      <main className="mainTestimonial ">
         <div className="container loanCardContainer">
           <div className="service-container row">
             <div className="col-md-12">
@@ -16,7 +17,7 @@ function CardBasedTesti() {
                 </h1>
               </div>
             </div>
-            <div className="service-card-card">
+            <div className="service-card-card" style={{marginLeft:"50px"}}>
               <div className="">
                 <div className="row">
                   <div className="col-md-3 col-lg-2 our-service-card">
@@ -90,6 +91,26 @@ function CardBasedTesti() {
                       </div>
                       <div>
                         <h4 className="h2">Car Loan</h4>
+                        <p className="info">
+                          Stay tuned into the world of finance & business.
+                        </p>
+                      </div>
+                      <div>
+                        <p>20 months installment</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-3 col-lg-2 our-service-card">
+                    <div className="our-service-main-card-content">
+                      <div className="d-flex">
+                        <div className="image-container">
+                          <div className="business-lone"></div>
+                          <img src="Group 1236.svg" alt="" />
+                        </div>
+                        <div className="percentage-content">11.75%</div>
+                      </div>
+                      <div>
+                        <h4 className="h2">Business Loan</h4>
                         <p className="info">
                           Stay tuned into the world of finance & business.
                         </p>

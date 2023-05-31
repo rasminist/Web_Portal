@@ -79,10 +79,10 @@
   color: var(--medium-grey);
 }
 
-.main {
+.mainTestimonial {
   width: 100%;
-  height: 450px;
-  margin-top: 40px;
+  height: auto;
+  margin-top: 100px;
 }
 
 .service-text {
@@ -94,6 +94,7 @@
   letter-spacing: 3.29px;
   color: #e9751e;
   text-transform: uppercase;
+  margin-top: -80px;
 }
 
 .provide-content {
@@ -101,7 +102,7 @@
 
   margin-left: 0;
   margin-right: 0;
-
+  margin-bottom: 60px;
   width: 742px;
   height: 110px;
 
@@ -159,7 +160,7 @@
   padding: 24px;
 }
 .service-card-card {
-  margin-top: 60px !important;
+  margin-top: -20px !important;
   padding-left: 90px;
 }
 .save-money {
@@ -194,16 +195,30 @@
 
   background: transparent url("Group 1231(1).svg") 0% 0% no-repeat padding-box;
 }
-.container {
+/* .main{
  
   background-color: white;
-  color: blue;
+  color: rgb(242, 242, 245);
   text-align: center;
   font-size: large;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
-  height: 487px !important;
+  height: 900px!important;
+} */
+
+.card_Base_Container{
+  border:1px solid red;
+  height: auto;
+  width:100% ;
+  background-color: white;
 }
-/* .h4{
-    color: orange;
-}  */
+
+*{
+   margin: 0;
+   padding: 0;
+}
+/* .row{
+  margin-left: -150px;
+  margin-right: -157px;
+  margin-top: 43px;
+} */

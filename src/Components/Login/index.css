@@ -1,0 +1,91 @@
+/* OTP generation Page CSS */
+.OTPGeneration {
+  padding: 10px;
+  border: 2px solid rgb(137, 217, 10);
+  width: 85%;
+  margin-top: 20px;
+  margin-left: 110px;
+  padding-top: 45px;
+  height: 450px;
+  border-radius: 40px;
+}
+.button-Design1 {
+  background-color: orange;
+  color: white;
+  width: 120px;
+  height: 7px !important;
+  box-shadow: 25px;
+  border-radius: 17px;
+  cursor: pointer;
+  padding-bottom: 38px;
+  margin-left: 250px !important;
+}
+.inputDesign {
+  width: 40% !important;
+  margin-left: 200px;
+}
+b {
+  color: red;
+}
+
+/* OTPverfiy css file */
+
+/* background-color:skyblue;  (inside catainer)*/
+/* .container {
+    border: 2px solid yellow;
+    width: 85%;
+    margin-top: 40px;
+    margin-left: 110px;
+    padding-top: 45px;
+    height: 450px;
+    box-shadow: 20px;
+    border-radius: 40px;
+  } */
+.OTPverify {
+  border: 2px solid yellow;
+  width: 85%;
+  margin-top: 20px;
+  margin-left: 110px;
+  padding-top: 45px;
+  height: 450px;
+  box-shadow: 20px;
+  border-radius: 40px;
+}
+.button_Style {
+  background-color: orange;
+  color: white;
+  width: 120px;
+  height: 7px !important;
+  box-shadow: 25px;
+  border-radius: 17px;
+  cursor: pointer;
+  padding-bottom: 38px;
+  margin-left: 250px !important;
+}
+.inputfield {
+  width: 35%;
+  margin-left: 200px;
+}
+/* Data Safe Template */
+.dataSafeTemplate {
+  border: 2px solid yellow;
+  width: 85%;
+  margin-top: 20px;
+  margin-left: 110px;
+  padding-top: 40px;
+  height: 480px;
+  box-shadow: 20px;
+  border-radius: 40px;
+}
+
+.DesignButtonTemplate {
+  background-color: orange;
+  color: white;
+  width: 120px;
+
+  box-shadow: 25px;
+  border-radius: 17px;
+  cursor: pointer;
+  padding-bottom: 38px;
+  margin-left: 250px !important;
+}

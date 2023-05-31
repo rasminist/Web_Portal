@@ -8,27 +8,32 @@ import "./Credit.css";
 ></link>;
 function Credit() {
   return (
-    <div className="creditPage">
-      <div className="row">
+  <div className="cotainer_credit">
+      <div className="creditPage">
+      <div className="row content">
         <div className="col-md-4">
         <img
-          src="https://images.money9.com/wp-content/uploads/2021/01/Credit-score-1.jpg"
+          src="https://pbs.twimg.com/media/E1hUw3BUUAUUZcS.jpg"
           alt="Credit Logo"
-          width="220"
+          width="300"
           height="200"
+         style={{marginLeft:"80px",marginTop:"20px"}}
         ></img>
         </div>
-        <div className="col-md-8">
-         <h1 style={{fontSize:"30px"}}>Get Credit Score</h1>
-         <hr/>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi libero repellendus facilis. Harum quidem ipsam a eveniet provident quod expedita dolore facilis nihil dignissimos rem doloribus delectus accusamus at impedit praesentium quos sunt, maiores quo magni, veniam ut mollitia molestias.</p>
+        <div className="col-md-7" style={{marginLeft:"90px"}}>
+         <h1 style={{fontSize:"30px",marginTop:"20px" ,color:"orange" ,width:"50%"}}>Get Credit Score</h1>
+        <hr style={{width:"30%"}}/>
+         <p style={{marginLeft:"-30pxpx"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi libero repellendus facilis. Harum quidem ipsam a eveniet provident
+          quod expedita dolore facilis nihil dignissimos rem doloribus delectus accusamus at impedit
+           praesentium quos sunt, maiores quo magni, veniam ut mollitia molestias.</p>
 
          <div style={{textAlign:"center"}}>
-          <button type="button" class="btn btn-primary "><h1>Get My Credit Score</h1></button>
+          <button type="button" class="credit_button"><h1>Get My Credit Score</h1></button>
           </div>
         </div>
       </div>
     </div>
+  </div>
   )
 }
 

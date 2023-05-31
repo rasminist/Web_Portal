@@ -335,3 +335,15 @@ li {
   }
 }
 
+
+/* Nav item color */
+.headerNavBar a {
+  color:black !important;
+  transition-duration: 0.4s;
+}
+/* Nav item hover color */
+.headerNavBar a:hover {
+  color: red !important;
+  transition-duration: 0.4s;
+}
+

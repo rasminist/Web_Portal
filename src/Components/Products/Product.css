@@ -34,12 +34,12 @@
     font-size: 16px;
     margin: 30px 2px;
     border-radius: 20px;
-    width: 100px;
+    width: 30%;
     
   }
-  .container {
+  /* .container {
     width: 90%;
-    /* height: 620px !important; */
+   
     height: auto ;
     border: 2px solid green;
-  }
+  } */

@@ -12,9 +12,9 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 
 function Custem() {
   return (
-    <div className="container">
+    <div className="container personalLoan_sliderPage">
       <div>
-        <h1 style={{ color: "yellow", textAlign: "center", fontSize: "30px" }}>
+        <h1 style={{ color: "yellow", textAlign: "center", fontSize: "30px" ,marginTop:"25px"}}>
           We Provide Loan For Every Need
         </h1>
       </div>

@@ -22,10 +22,10 @@
        font-size:30px;
        font-weight: 30px;
   }
-  .row {
+  /* .row {
     display: flex;
     flex-wrap: wrap;
-  }
+  } */
   .column {
     width: 100%;
     padding: 0 1em 1em 1em;
@@ -98,4 +98,9 @@
       flex: 0 0 33.33%;
       max-width: 33.33%;
     }
+  }
+
+  .image_placement{
+   margin-top: -20px; 
+   height: 80px;
   }

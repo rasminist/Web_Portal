@@ -10,7 +10,7 @@ import { Container } from "react-bootstrap";
 function LoanScn() {
   return (
     <div>
-      <div className="row">
+      <div className="row ">
         <div className="col-md-4">
           <img
             src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2021/01/960x0_8.jpg"
