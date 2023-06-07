@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Calculator.css';
-
+import  Navbar from "../ShareComponent/Navbar";
 function Calculator() {
   const [principal, setPrincipal] = useState(0);
   const [interestRate, setInterestRate] = useState(0);
@@ -15,7 +15,9 @@ function Calculator() {
   };
 
   return (
-    <div className="emi-calculator">
+    <div>
+    <Navbar/>
+      <div className="emi-calculator">
       <h1>EMI Calculator</h1>
       <div className="form-group">
         <label>Loan Amount:</label>
@@ -31,6 +33,7 @@ function Calculator() {
       </div>
       <button className="btn-calculate" onClick={calculateEmi}>Calculate EMI</button>
       {emi > 0 && <div className="result">EMI: {emi}</div>}
+    </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../ShareComponent/Navbar";
-import "../Login/index.css";
+import "./index.css";
 function DataSafe() {
   let navigate = useNavigate();
   function clickHandler() {

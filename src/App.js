@@ -13,6 +13,7 @@ import Services from "./Components/Services/Services";
 import  OTPVerifyPage from "./Components/Login/OTPVerify";
 import DataSafeTemplate from './Components/DataTemplate/DataSafeTemplate';
 import EMICalculatorPage from './Components/EmiLoanCalculator/loanCalculator';
+import PersonalDetails from "./Components/PesonalDetailsPage/PersonalDetails"
 function App(props) {
   console.log(props);
   return (
@@ -30,6 +31,7 @@ function App(props) {
          <Route path="optVerification" element={<OTPVerifyPage/>}/>
          <Route path="showTemplate" element={<DataSafeTemplate/>}/>
          <Route path="loanEmiCalculator" element={<EMICalculatorPage/>}/>
+         <Route path="personalDetailPage" element={<PersonalDetails/>}/>
       </Routes>
     </BrowserRouter>
   </>

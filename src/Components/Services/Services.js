@@ -1,10 +1,11 @@
 import React from 'react';
 import "./Services.css";
+import  Navbar from "../ShareComponent/Navbar";
 
 function Services() {
   return (
     <div>
-    <h2>welcome to service page.........</h2>
+    <Navbar/>
     <div className="container">
        <div className="row">
        <div className="col-md-6">

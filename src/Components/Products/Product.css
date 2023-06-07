@@ -1,3 +1,12 @@
+.document_required{
+    border: 1px solid rgb(22, 227, 25);
+    height: 490px;
+    width: 80%;
+    margin-top: 40px;
+   border-radius: 18px;
+  }
+
+
 .button {
     background-color: #4CAF50; 
     border: none;

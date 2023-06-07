@@ -93,7 +93,7 @@ function Verify(props) {
                 alt="indian_flag"
                 width="50px"
                 height="50px"
-                style={{marginLeft:"300px"}}
+                style={{marginLeft:"250px"}}
               ></img>
               {/* <h2>+91</h2> */}
               <input

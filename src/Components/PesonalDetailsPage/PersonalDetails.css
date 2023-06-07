@@ -1,0 +1,13 @@
+.Personal_data_container{
+    border: 1px solid yellow;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    background-color:white;
+    margin-left: 100px;
+    margin-top: 15px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}

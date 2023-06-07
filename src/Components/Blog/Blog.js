@@ -1,10 +1,11 @@
 import React from "react";
 import "./Blog.css";
+import  Navbar from "../ShareComponent/Navbar";
 
 function Blog() {
   return (
     <div>
-      <h2>welcome to blog page</h2>
+      <Navbar/>
       <div className="container">
         <div className="row">
           <div className="col-md-4">

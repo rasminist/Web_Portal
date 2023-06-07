@@ -1,12 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Product.css";
+import  Navbar from "../ShareComponent/Navbar";
+
 function Product(props) {
   let history = useNavigate();
   console.log(history);
   return (
-    // <div>
-    <div className="container">
+     <div>
+     <Navbar/>
+    <div className="container  document_required">
       <div className="row">
         <div className="col-md-5">
           <img
@@ -51,7 +54,7 @@ function Product(props) {
           </div>
         </div>
       </div>
-      {/* </div> */}
+      </div>
     </div>
   );
 }

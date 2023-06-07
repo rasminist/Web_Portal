@@ -12,7 +12,7 @@ import OurServices from "./OurServices/OurSevices";
 import CardBasedTesti from "./CardBaseInfo/CardBasedTesti";
 import Stastic1 from "./StasticPage/Static1";
 import Stastic2 from "./StasticPage/Static2";
-import Kyc1 from "../KycPage/Kyc1";
+// import Kyc1 from "../KycPage/Kyc1";
 
 function MainPage() {
   return (

@@ -344,6 +344,12 @@ li {
 /* Nav item hover color */
 .headerNavBar a:hover {
   color: red !important;
-  transition-duration: 0.4s;
+  transition-duration: 0.1s;
+  font-size: 23px;
 }
-
+/* Annapuna Hpme Logo image Design */
+.Annapurna_Home_logo:hover{
+  /* opacity: 0.4; */
+  transform: scale(1.1);
+  /* transform: rotate(360deg); */
+}

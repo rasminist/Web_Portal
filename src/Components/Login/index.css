@@ -66,26 +66,42 @@ b {
   width: 35%;
   margin-left: 200px;
 }
-/* Data Safe Template */
-.dataSafeTemplate {
-  border: 2px solid yellow;
-  width: 85%;
-  margin-top: 20px;
-  margin-left: 110px;
-  padding-top: 40px;
-  height: 480px;
-  box-shadow: 20px;
-  border-radius: 40px;
+.otpContainer{
+  display: flex;
+  justify-content: center;
 }
 
-.DesignButtonTemplate {
+.otpInput {
+  width: 3rem !important;
+  height: 3rem;
+  margin: 0 1rem;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.button_Style1{
+
+  /* color: white;
   background-color: orange;
+  height: 50px;
+  font-size: 18px;
+  margin-left:230px;
+  margin-bottom: 50px; */
+  background-color: #4CAF50; /* Green */
+  border: 1px solid yellow;
   color: white;
-  width: 120px;
-
-  box-shadow: 25px;
-  border-radius: 17px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 230px ;
+  margin-top: 15PX;
   cursor: pointer;
-  padding-bottom: 38px;
-  margin-left: 250px !important;
+  border-radius :15px;
+  background-color: orange;
 }
+
+

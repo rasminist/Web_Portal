@@ -12,7 +12,6 @@ import Home_logo from "../../Images/logo/Home_logo.jpg"
 function Navbar(props) {
   let navigate = useNavigate();
   const [showMediaIcons, setShowMediaIcons] = useState(false);
-  console.log("hello world..");
   console.log(localStorage.getItem("userAccessToken"));
   const isUserLoggedIn = localStorage.getItem("userAccessToken") ? true : false;
   console.log(isUserLoggedIn);
@@ -39,6 +38,7 @@ function Navbar(props) {
             width="260px"
             height="75px"
             onClick={homePageClick}
+            className="Annapurna_Home_logo"
           />
         </div>
         {/* Second menu part */}
